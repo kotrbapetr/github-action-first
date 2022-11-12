@@ -5,3 +5,17 @@ on: [push]
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
+    steps:
+      - name: vypsat string
+        run: echo "Spouštím GitHub Action step!"
+      - name: Spuštění víceřádkového příkazu
+        run: |
+          node -v
+          npm -v
+          echo "Víceřádkový příkaz dokončen"
+          
+          
+          
+          
+          
+          
