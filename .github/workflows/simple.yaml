@@ -13,6 +13,10 @@ jobs:
           node -v
           npm -v
           echo "Víceřádkový příkaz dokončen"
+      - name: Příkaz přes Python cmd
+        run: |
+          import platform
+          print(platform.processor())
           
           
           
